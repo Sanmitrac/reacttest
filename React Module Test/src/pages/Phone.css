@@ -1,0 +1,65 @@
+.mobile_sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mobile_sidebar_title {
+    text-align: left;
+    height: 10vh;
+    width: 100vw;
+    font-size: 2rem;
+    font-weight: 800;
+    position: fixed;
+    top: 4vh;
+  }
+  
+  .mobile_sidebar_create_notes_btn {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 15vh;
+    background-color: white;
+  }
+  
+  .mobile_sidebar_create_notes_btn > button {
+    height: 10vh;
+    width: 100vw;
+    font-size: 4vh;
+    border: none;
+    border-radius: 5vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .mobile_sidebar_notes_title {
+    min-height: 84vh;
+    margin-top: 32vh;
+    overflow-y: auto;
+  
+    height: 50vh;
+    width: 100vw;
+  }
+  
+  .mobile_popup_overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
